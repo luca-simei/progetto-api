@@ -1,6 +1,6 @@
 # <div align="center"> Progetto di API </div> <div align="center"> Prova Finale, AA. 2022-2023 </div>
 
-Questa è la prova finale per il corso di Algoritmi e Principi dell'Informatica @Politecnico di Milano. Il progetto consiste nella realizzazione di un programma in C che, rispettando date specifiche, sia ottimizzato in termini di tempo di esecuzione e spazio allocato in memoria. Questo progetto ha ricevuto la valutazione massima di 30L.
+Questa è la prova finale per il corso di Algoritmi e Principi dell'Informatica @ Politecnico di Milano. Il progetto consiste nella realizzazione di un programma in C che, rispettando date specifiche, sia ottimizzato in termini di tempo di esecuzione e spazio allocato in memoria. Questo progetto ha ricevuto la valutazione massima di 30L.
 
 ### Specifica
 
