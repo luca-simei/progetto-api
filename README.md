@@ -13,7 +13,7 @@ L'obiettivo del progetto consiste nel realizzare in C un programma che pianifich
 
 ### Implementazione
 
-La struttura dati scelta per rappresentare l'autostrada è quella di un red-black tree, al fine di effettuare ricerca e inserimento delle stazioni in un tempo logaritmico (_O(logn)_), dal momento che queste consistono nella maggior parte degli input che vengono sottoposti al programma. Considerando che viene dato come constraint nella specifica del progetto il fatto che ogni stazione può ospitare un massimo di 512 automobili, per semplificare la gestione dello stesso ogni parcheggio viene rappresentato come un array di dimensione massima di 512 elementi. Altra struttura dati utilizzata è uno stack, popolato all'esecuzione di un comando _+pianifica_percorso_, al fine di calcolare il percorso ottimale tra le sole stazioni possibili. 
+La struttura dati scelta per rappresentare l'autostrada è quella di un red-black tree, al fine di effettuare ricerca e inserimento delle stazioni in un tempo logaritmico ( _O(logn)_ ), dal momento che queste consistono nella maggior parte degli input che vengono sottoposti al programma. Considerando che viene dato come constraint nella specifica del progetto il fatto che ogni stazione può ospitare un massimo di 512 automobili, per semplificare la gestione dello stesso ogni parcheggio viene rappresentato come un array di dimensione massima di 512 elementi. Altra struttura dati utilizzata è uno stack, popolato all'esecuzione di un comando _+pianifica_percorso_, al fine di calcolare il percorso ottimale tra le sole stazioni possibili. 
 
 ### Vincoli
 
