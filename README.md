@@ -11,6 +11,10 @@ L'obiettivo del progetto consiste nel realizzare in C un programma che pianifich
 * _+rottama-auto_ : Rimuove un’automobile dalla stazione indicata, se la stazione esiste ed è dotata di almeno un’automobile con l’autonomia indicata.
 * _+pianifica-percorso_ : Richiede di pianificare il percorso con i vincoli sopra indicati. Stampa attesa come risposta: le tappe in ordine di percorrenza, rappresentate con la distanza delle stazionida inizio autostrada, separate da spazi e alla fine seguite da un a-capo. Devono essere incluse partenza e arrivo; se coincidono la stazione viene stampata una sola volta. Se il percorso non esiste, stampa nessunpercorso. L’azione di pianificazione non altera le stazioni o il loro parco veicoli. Le stazioni date sono sicuramente presenti.
 
+### Implementazione
+
+La struttura dati scelta per rappresentare l'autostrada è quella di un red-black tree, al fine di effettuare ricerca e inserimento delle stazioni in un tempo logaritmico (_O(logn)_), dal momento che queste consistono nella maggior parte degli input che vengono sottoposti al programma. Considerando che viene dato come constraint nella specifica del progetto il fatto che ogni stazione può ospitare un massimo di 512 automobili, per semplificare la gestione dello stesso ogni parcheggio viene rappresentato come un array di dimensione massima di 512 elementi. Altra struttura dati utilizzata è uno stack, popolato all'esecuzione di un comando _+pianifica_percorso_, al fine di calcolare il percorso ottimale tra le sole stazioni possibili. 
+
 ### Vincoli
 
 | Valutazione | Memoria | Tempo |       Esito        |
