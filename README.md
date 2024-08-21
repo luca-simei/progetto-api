@@ -4,7 +4,7 @@ Questa è la prova finale per il corso di Algoritmi e Principi dell'Informatica 
 
 ### Specifica
 
-L'obiettivo del progetto consiste nel realizzare in C un programma che pianifichi il percorso ottimale tra due stazioni di servizio in un'autostrada. Considerando informazioni più dettagliate riguardo la specifica del progetto (specifica completa), il programma può ricevere in input i seguenti comandi:
+L'obiettivo del progetto consiste nel realizzare in C un programma che pianifichi il percorso ottimale tra due stazioni di servizio in un'autostrada. Considerando informazioni più dettagliate riguardo la specifica del progetto [(specifica completa)](https://github.com/luca-simei/progetto-api/blob/main/Specifica/Specifica_2022-2023.pdf), il programma può ricevere in input i seguenti comandi:
 * _+aggiungi-stazione_ : Aggiunge una stazione, posta alla distanza indicata, dotata di numero-auto, dall’autonomia indicata.
 * _+demolisci-stazione_ : Rimuove la stazione posta alla distanza indicata, se essa esiste.
 * _+aggiungi-auto_ : Se la stazione esiste, aggiunge un’auto alla stessa. È possibile avere più auto con la stessa autonomia.
